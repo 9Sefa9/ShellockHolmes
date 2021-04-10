@@ -1,4 +1,4 @@
-#Zeichenketten
+#Zeichenketten Vergleiche:
 echo "s1" = "s2"
 #wahr, wenn die Zeichenketten gleich sind
 #"s1" != "s2"
@@ -7,7 +7,8 @@ echo "s1" = "s2"
 #wahr, wenn die Zeichenkette leer ist (Länge gleich Null)
 #-n "s1"
 #wahr, wenn die Zeichenkette nicht leer ist (Länge größer als Null)
-#(Ganze) Zahlen
+
+#(Ganze) Zahlen vergleiche:
 #n1 -eq n2
 #wahr, wenn die Zahlen gleich sind
 #n1 -ne n2
@@ -20,7 +21,7 @@ echo "s1" = "s2"
 #wahr, wenn die Zahl n1 kleiner ist als n2
 #n1 -le n2
 #wahr, wenn die Zahl n1 kleiner oder gleich n2 ist
-#Sonstiges
+#Sonstige Vergleiche
 #!
 #Negation
 #-a
@@ -28,6 +29,6 @@ echo "s1" = "s2"
 #-o
 #logisches "oder" (nichtexklusiv; -a hat eine höhere Priorität)
 #\( ... \)
-#Runde Klammern dienen zur Gruppierung. Man beachte, daß sie durch einen vorangestellten Backslash, \, geschützt werden müssen.
-#-f filename
-##wahr, wenn die Datei existiert. (Weitere Optionen findet man in der man page zu test)
+#Runde Klammern dienen zur Gruppierung. 
+#Man beachte, daß sie durch einen vorangestellten Backslash, \, geschützt werden müssen.
+#-f filename wahr, wenn die Datei existiert. (Weitere Optionen findet man in der man page zu test)
